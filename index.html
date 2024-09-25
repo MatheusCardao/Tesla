@@ -1,0 +1,51 @@
+<!DOCTYPE html> <!-- VERSÃO DO HTML -->
+<html lang="pt-br"> <!-- TAG HTML E LINGUA DO SITE -->
+<head> <!-- CONFIGURAÇÕES DO SITE -->
+    <meta charset="UTF-8">  <!-- PADRÃO DE CARACTERES DO SITE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- SITE COMPATÍVEL COM CELULAR E COMPUTADOR -->
+    <link rel="stylesheet" href="style.css">
+    <title>DevClub - Tesla</title> <!-- TITULO DO SITE -->
+</head>
+
+<body>
+    <img class="logo-tesla" src="./img/logo.png" alt="logo da tesla">
+
+    <ul class="list">
+        <!--Item 1-->
+        <li class="content">
+            <video src="./img/model-y.mp4" muted loop autoplay></video>
+            <div class="car-info">
+                <h1>Model Y</h1>
+                <p class="lage-paragraph">Parcelar a partir de 499 dólares</p>
+            </div>
+            <div class="car-footer">
+                <button onclick="formV()">Comprar Agora</button>
+                <button class="test-drive">Faça um Test-Drive</button>
+                <p class="paragraph-info">Não garantimos seu veículo imediatamente.Consultar estoque*</p>
+            </div>
+        </li>
+        <!--Item 2-->
+        <li class="content">
+            <img class="img-tesla" src="./img/model-s.png" alt="car-tesla-model-s"></img>
+            <div class="car-info">
+                <h1>Model S</h1>
+                <p class="lage-paragraph">Compre agora o seu tesla Model S</p>
+            </div>
+        </li>
+        <!--Item 3-->
+        <li class="content">
+            <img class="img-tesla" src="./img/model-x.png" alt="car-tesla-model-x"></img>
+            <div class="car-info">
+                <h1 class="different-color-h1-item-3">Model X</h1>
+                <p class="different-color-p-item-3">Compre agora o seu tesla Model X</p>
+            </div>  
+        </li>
+    </ul>
+
+    <div class="form">
+        <button class="form-button" onclick="formD()">Fechar</button>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/241955464635061"></script>
+    </div>
+</body>
+<script src="script.js"></script>   
+</html>
