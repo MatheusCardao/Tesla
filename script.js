@@ -1,9 +1,9 @@
 let form = document.querySelector(".form")
 
 function formV() {
-   form.style.left = "35%"
+   form.style.left = "65%"
 }
 
 function formD() {
-    form.style.left = "-65%" 
+    form.style.left = "-35%" 
 }
