@@ -118,3 +118,9 @@ button {
     left: 32%;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 1380px) {
+    .form {
+        left: -65%;
+    }
+}
