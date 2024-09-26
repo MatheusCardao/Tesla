@@ -5,5 +5,5 @@ function formV() {
 }
 
 function formD() {
-    form.style.left = "-65%" 
+    form.style.left = "-100%" 
 }
